@@ -1,3 +1,3 @@
 # IPC appender for log4c
 
-Log4c logging lib is missing appender that accepts messages from different processes w/o collisions in the resulting file. This implementation tries to cover this lack. Posix message queue is used as transport.
+This log4c appender accepts messages from different processes and sends them into resulting file w/o writing collisions. Posix message queue is used as transport.
